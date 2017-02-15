@@ -3,7 +3,7 @@ pm2-cli-monit
 
 Simple interface to monit pm2 memory/cpu per process.
 
-![]()
+![](https://github.com/soyuka/pm2-cli-monit/blob/master/pm2-monit.png?raw=true)
 
 ## Installation
 
