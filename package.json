@@ -6,11 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "bin": {
+    "pm2-monit": "./index.js"
+  },
+  "keywords": ["pm2", "monit", "curse", "cli"],
+  "author": "soyuka",
+  "license": "MIT",
   "dependencies": {
     "ascii-progress": "^1.0.5",
+    "pm2": "^2.4.0",
     "pretty-bytes": "^4.0.2"
   }
 }
