@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 const progress = require('ascii-progress')
 const prettyBytes = require('pretty-bytes')
