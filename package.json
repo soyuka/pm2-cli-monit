@@ -1,6 +1,6 @@
 {
   "name": "pm2-cli-monit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,12 @@
   "bin": {
     "pm2-monit": "./index.js"
   },
-  "keywords": ["pm2", "monit", "curse", "cli"],
+  "keywords": [
+    "pm2",
+    "monit",
+    "curse",
+    "cli"
+  ],
   "author": "soyuka",
   "license": "MIT",
   "dependencies": {
