@@ -1,8 +1,9 @@
+'use strict';
 const progress = require('ascii-progress')
 const prettyBytes = require('pretty-bytes')
 const pm2 = require('pm2')
 
-let max = 1.76e9
+const max = 1.76e9
 const bars = {}
 let lengthMemory = 0
 
@@ -17,7 +18,7 @@ function showBars(list) {
       delete bars[i]
     }
 
-		reset()
+    reset()
   }
 
   lengthMemory = list.length
